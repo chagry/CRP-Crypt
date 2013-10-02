@@ -9,9 +9,6 @@
  * @Func Decry  crp::decrypte('Text', 'Key');
  */
 
-/*
- * Class crp.
- */
 class crp 
 {
 	/*
@@ -61,8 +58,5 @@ class crp
 		}
 		return $VariableTemp;
 	}
-/*
- * Fin de la class crp.
- */
 }
 ?>
