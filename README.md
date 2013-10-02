@@ -7,7 +7,6 @@ Crypte et décrypte les texte passer en paramètre avec la clé secret. Intègre
 CRP securitie connexion conciste a ne pas envoier le password au serveur a chaque connexion mais plus tot, recuperer un message crypter de la pare du serveur est utiliser votre password pour decrypter le message avant de le renvoyer au serveur. Votre password a etais envoier une seule foit au serveur au moment de l'enregistrement, est plus jamais il sera renvoier au serveur.
 
 ># PHP
-***
 Class de cryptage et décryptage static pour php.
 
 ####Package
@@ -62,7 +61,6 @@ Fonction de decrypage.
 *$tmp = Hello World*
 
 ># jQuery
-***
 Plugin de cryptage et décryptage pour jQuery
 
 ####Package
