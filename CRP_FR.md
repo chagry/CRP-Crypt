@@ -4,7 +4,7 @@ CRP est une fonction de cryptage decliner pour php et jQuery. Vous pouvez l'util
 
 Crypte et décrypte les texte passer en paramètre avec la clé secret. Intègre en interne une clés secondaire, le même texte crypté à des moments différents avec la même clé secret donnera des résultats différents.
 
-CRP securitie connexion conciste a ne pas envoier le password au serveur a chaque connexion mais plus tot, recuperer un message crypter de la pare du serveur est utiliser votre password pour decrypter le message avant de le renvoyer au serveur. Votre password a etais envoier une seule foit au serveur au moment de l'enregistrement, est plus jamais il sera renvoier au serveur.
+CRP securitis connexion conciste a ne pas envoier le password au serveur a chaque connexion mais plus tot, recuperer un message crypter de la pare du serveur est utiliser votre password pour decrypter le message avant de le renvoyer au serveur. Votre password a etais envoier une seule foit au serveur au moment de l'enregistrement, est plus jamais il sera renvoier au serveur.
 
 ***
 ***
