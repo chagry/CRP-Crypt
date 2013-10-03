@@ -20,7 +20,7 @@ require_once 'php/crp.php';
 
 #### Usage
 ***
->#### `crp::crypte('TEXT', 'KEY');`
+> #### `crp::crypte('TEXT', 'KEY');`
 Fonction de cryptage.
 
 **Paramètre**
@@ -41,7 +41,7 @@ $tmp = crp::crypte($message, $key);
 
 ***
 
->#### `crp::decrypte('TEXT', 'KEY');`
+> #### `crp::decrypte('TEXT', 'KEY');`
 Fonction de decrypage.
 
 **Paramètre**
@@ -59,8 +59,10 @@ $key = '123456789';
 $tmp = crp::decrypte($message, $key);
 // $tmp = Hello World
 ```
+Merci à [info-3000](http://www.info-3000.com/) pour les fonction de cryptage et décryptage en php.
 
->#![icone](img/jquery.png) 
+
+> #![icone](img/jquery.png) 
 Plugin de cryptage et décryptage pour jQuery
 
 ####Package
@@ -81,7 +83,7 @@ Importer les fichiers depuis votre dossier.
 
 ***
 
->#### `$.crp.crypte('TEXT', 'KEY');`
+> #### `$.crp.crypte('TEXT', 'KEY');`
 Fonction de cryptage.
 
 **Paramètre**
@@ -102,7 +104,7 @@ var tmp = $.crp.crypte(message, key);
 
 ***
 
->#### `$.crp.decrypte('TEXT', 'KEY');`
+> #### `$.crp.decrypte('TEXT', 'KEY');`
 Fonction de decrypage.
 
 **Paramètre**
