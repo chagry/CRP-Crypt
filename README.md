@@ -1,4 +1,4 @@
-># CRP cryptage V 0.1
+> # CRP crypt V 0.1
 Encrypt & decrypt for PHP & jQuery
 
-#### ![icone](img/fr.gif) [Documentation française](CRP_FR.md)
+#### ![fr](img/fr.gif) [Documentation française](CRP_FR.md)

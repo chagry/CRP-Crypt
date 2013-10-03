@@ -6,6 +6,10 @@ Crypte et décrypte les texte passer en paramètre avec la clé secret. Intègre
 
 CRP securitie connexion conciste a ne pas envoier le password au serveur a chaque connexion mais plus tot, recuperer un message crypter de la pare du serveur est utiliser votre password pour decrypter le message avant de le renvoyer au serveur. Votre password a etais envoier une seule foit au serveur au moment de l'enregistrement, est plus jamais il sera renvoier au serveur.
 
+***
+***
+***
+
 > # ![icone](img/php.png)
 Class de cryptage et décryptage static pour php.
 
@@ -20,7 +24,7 @@ require_once 'php/crp.php';
 
 #### Usage
 ***
->#### `crp::crypte('TEXT', 'KEY');`
+> #### `crp::crypte('TEXT', 'KEY');`
 Fonction de cryptage.
 
 **Paramètre**
@@ -41,7 +45,7 @@ $tmp = crp::crypte($message, $key);
 
 ***
 
->#### `crp::decrypte('TEXT', 'KEY');`
+> #### `crp::decrypte('TEXT', 'KEY');`
 Fonction de decrypage.
 
 **Paramètre**
@@ -59,8 +63,13 @@ $key = '123456789';
 $tmp = crp::decrypte($message, $key);
 // $tmp = Hello World
 ```
+Merci à [info-3000](http://www.info-3000.com/) pour les fonction de cryptage et décryptage en php.
+***
+***
+***
 
->#![icone](img/jquery.png) 
+
+> #![icone](img/jquery.png) 
 Plugin de cryptage et décryptage pour jQuery
 
 ####Package
@@ -81,7 +90,7 @@ Importer les fichiers depuis votre dossier.
 
 ***
 
->#### `$.crp.crypte('TEXT', 'KEY');`
+> #### `$.crp.crypte('TEXT', 'KEY');`
 Fonction de cryptage.
 
 **Paramètre**
@@ -102,7 +111,7 @@ var tmp = $.crp.crypte(message, key);
 
 ***
 
->#### `$.crp.decrypte('TEXT', 'KEY');`
+> #### `$.crp.decrypte('TEXT', 'KEY');`
 Fonction de decrypage.
 
 **Paramètre**
