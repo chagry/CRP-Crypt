@@ -6,9 +6,7 @@ Crypte et décrypte les texte passer en paramètre avec la clé secret. Intègre
 
 CRP securitie connexion conciste a ne pas envoier le password au serveur a chaque connexion mais plus tot, recuperer un message crypter de la pare du serveur est utiliser votre password pour decrypter le message avant de le renvoyer au serveur. Votre password a etais envoier une seule foit au serveur au moment de l'enregistrement, est plus jamais il sera renvoier au serveur.
 
-***
-
->#![icone](img/php.png)
+> # ![icone](img/php.png)
 Class de cryptage et décryptage static pour php.
 
 ####Package
@@ -16,9 +14,8 @@ Class de cryptage et décryptage static pour php.
 	* `crp.php`
 
 #### Import
-Importer le fichier depuis votre dossier.
 ```php
-require_once 'lib/crp.php';
+require_once 'php/crp.php';
 ```
 
 #### Usage
@@ -62,7 +59,6 @@ $key = '123456789';
 $tmp = crp::decrypte($message, $key);
 // $tmp = Hello World
 ```
-***
 
 >#![icone](img/jquery.png) 
 Plugin de cryptage et décryptage pour jQuery
@@ -85,7 +81,7 @@ Importer les fichiers depuis votre dossier.
 
 ***
 
->#### $.crp.crypte('TEXT', 'KEY');
+>#### `$.crp.crypte('TEXT', 'KEY');`
 Fonction de cryptage.
 
 **Paramètre**
