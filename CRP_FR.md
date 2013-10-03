@@ -63,7 +63,7 @@ $tmp = crp::decrypte($message, $key);
 // $tmp = Hello World
 ```
 
->#![icone](img/jQuery.png) 
+>#![icone](img/jquery.png) 
 Plugin de cryptage et décryptage pour jQuery
 
 ####Package
