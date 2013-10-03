@@ -6,6 +6,8 @@ Crypte et décrypte les texte passer en paramètre avec la clé secret. Intègre
 
 CRP securitie connexion conciste a ne pas envoier le password au serveur a chaque connexion mais plus tot, recuperer un message crypter de la pare du serveur est utiliser votre password pour decrypter le message avant de le renvoyer au serveur. Votre password a etais envoier une seule foit au serveur au moment de l'enregistrement, est plus jamais il sera renvoier au serveur.
 
+***
+
 >#![icone](img/php.png)
 Class de cryptage et décryptage static pour php.
 
@@ -15,25 +17,23 @@ Class de cryptage et décryptage static pour php.
 
 #### Import
 Importer le fichier depuis votre dossier.
-
-	require_once 'lib/crp.php';
+```php
+require_once 'lib/crp.php';
+```
 
 #### Usage
 ***
-### crp::crypte('TEXT', 'KEY');
+>#### `crp::crypte('TEXT', 'KEY');`
 Fonction de cryptage.
 
 **Paramètre**
-
 * **TEXT** Le texte a crypter.
 * **KEY** La cles a utiliser pour crypter le texte.
 
 **Return**
-
 * Une chaine de caracter base64.
 
 **Exemple d'utilisation**
-
 ```php
 $message = 'Hello World';
 $key = '123456789';
@@ -41,20 +41,20 @@ $key = '123456789';
 $tmp = crp::crypte($message, $key);
 // $tmp = bDpiamM6cTtkYyA6O3MgY2p2ZHNramhzZGJxcyx2Yyw=
 ```
-### crp::decrypte('TEXT', 'KEY');
+
+***
+
+>#### `crp::decrypte('TEXT', 'KEY');`
 Fonction de decrypage.
 
 **Paramètre**
-
 * **TEXT** Le texte a decrypter.
 * **KEY** La cles a utiliser pour decrypter le texte.
 
 **Return**
-
 * Le message decrypter.
 
 **Exemple d'utilisation**
-
 ```php
 $message = 'bDpiamM6cTtkYyA6O3MgY2p2ZHNramhzZGJxcyx2Yyw=';
 $key = '123456789';
@@ -62,6 +62,7 @@ $key = '123456789';
 $tmp = crp::decrypte($message, $key);
 // $tmp = Hello World
 ```
+***
 
 >#![icone](img/jquery.png) 
 Plugin de cryptage et décryptage pour jQuery
@@ -74,49 +75,52 @@ Plugin de cryptage et décryptage pour jQuery
 
 #### Import
 Importer les fichiers depuis votre dossier.
-
+```js
 	<script type="text/javascript" src="js/lib/jquery.crp.min.js"></script>
 	<script type="text/javascript" src="js/lib/jquery.md5.min.js"></script>
 	<script type="text/javascript" src="js/lib/jquery.base64.min.js"></script>
+```
 
 #### Usage
+
 ***
-### $.crp.crypte('TEXT', 'KEY');
+
+>#### $.crp.crypte('TEXT', 'KEY');
 Fonction de cryptage.
 
 **Paramètre**
-
 * **TEXT** Le texte a crypter.
 * **KEY** La cles a utiliser pour crypter le texte.
 
 **Return**
-
 * Une chaine de caracter base64.
 
 **Exemple d'utilisation**
-
-	var message = 'Hello World';
-	var key = '123456789';
+```js
+var message = 'Hello World';
+var key = '123456789';
 	
-	var tmp = $.crp.crypte(message, key);
-*tmp = bDpiamM6cTtkYyA6O3MgY2p2ZHNramhzZGJxcyx2Yyw=*
+var tmp = $.crp.crypte(message, key);
+// tmp = bDpiamM6cTtkYyA6O3MgY2p2ZHNramhzZGJxcyx2Yyw=
+```
 
-### $.crp.decrypte('TEXT', 'KEY');
+***
+
+>#### `$.crp.decrypte('TEXT', 'KEY');`
 Fonction de decrypage.
 
 **Paramètre**
-
 * **TEXT** Le texte a decrypter.
 * **KEY** La cles a utiliser pour decrypter le texte.
 
 **Return**
-
 * Le message decrypter.
 
 **Exemple d'utilisation**
-
-	var message = 'bDpiamM6cTtkYyA6O3MgY2p2ZHNramhzZGJxcyx2Yyw=';
-	var key = '123456789';
+```js
+var message = 'bDpiamM6cTtkYyA6O3MgY2p2ZHNramhzZGJxcyx2Yyw=';
+var key = '123456789';
 	
-	var tmp = $.crp.decrypte(message,key);
-*tmp = Hello World*
+var tmp = $.crp.decrypte(message,key);
+// tmp = Hello World
+```
