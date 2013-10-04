@@ -1,12 +1,12 @@
 <?php
 /*
- * @version     0.1
- * @date Crea   23/04/2013.
- * @date Modif  28/04/2013.
+ * @version		0.1
+ * @date Crea	23/04/2013.
+ * @date Modif	28/04/2013.
  * @package		crp.php
  * @contact		chagry.fr - git@chagry.fr
- * @Func Crypt  crp::crypte('Text', 'Key');
- * @Func Decry  crp::decrypte('Text', 'Key');
+ * @Func Crypt	crp::crypte('Text', 'Key');
+ * @Func Decry	crp::decrypte('Text', 'Key');
  */
 
 class crp 
@@ -43,7 +43,7 @@ class crp
 		}
 		return base64_encode(self::GenerationCle($VariableTemp,$Cle) );
 	}
-		
+	
 	/*
 	 * Function Decrypte
 	 */

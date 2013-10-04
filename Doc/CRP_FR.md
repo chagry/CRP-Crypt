@@ -64,11 +64,9 @@ $key = '123456789';
 $tmp = crp::decrypte($message, $key);
 // $tmp = Hello World
 ```
-Merci à [info-3000](http://www.info-3000.com/) pour les fonction de cryptage et décryptage en php.
 ***
 ***
 ***
-
 
 > #![icone](img/jquery.png) 
 Plugin de cryptage et décryptage pour jQuery
