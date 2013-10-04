@@ -56,6 +56,7 @@ Fonction de decrypage.
 * Le message decrypter.
 
 **Exemple d'utilisation**
+
 ```php
 $message = 'bDpiamM6cTtkYyA6O3MgY2p2ZHNramhzZGJxcyx2Yyw=';
 $key = '123456789';
@@ -81,9 +82,9 @@ Plugin de cryptage et décryptage pour jQuery
 #### Import
 Importer les fichiers depuis votre dossier.
 ```js
-	<script type="text/javascript" src="js/lib/jquery.crp.min.js"></script>
-	<script type="text/javascript" src="js/lib/jquery.md5.min.js"></script>
-	<script type="text/javascript" src="js/lib/jquery.base64.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery.crp.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery.md5.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery.base64.min.js"></script>
 ```
 
 #### Usage
