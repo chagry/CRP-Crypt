@@ -1,4 +1,4 @@
-# CRP crypt V 0.1 FR
+# CRP crypt Doc FR
 
 CRP est une fonction de cryptage decliner pour php et jQuery. Vous pouvez l'utiliser dans un chat, un echange d'information entre le serveur et le client, securisation de connexion… Vous pouvez crypter avec un langage est decrypter avec un autre langage.
 
