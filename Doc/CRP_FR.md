@@ -10,7 +10,7 @@ CRP securitis connexion conciste a ne pas envoier le password au serveur a chaqu
 ***
 ***
 
-> # ![icone](img/php.png)
+> # ![icone](../img/php.png)
 Class de cryptage et décryptage static pour php.
 
 ####Package
@@ -68,7 +68,7 @@ $tmp = crp::decrypte($message, $key);
 ***
 ***
 
-> #![icone](img/jquery.png) 
+> #![icone](../img/jquery.png) 
 Plugin de cryptage et décryptage pour jQuery
 
 ####Package
