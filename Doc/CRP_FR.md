@@ -115,7 +115,7 @@ Fonction de decrypage.
 
 **Paramètre**
 * **TEXT** Le texte à décrypter.
-* **KEY** La cles à utiliser pour décrypter le texte.
+* **KEY** La clé à utiliser pour décrypter le texte.
 
 **Return**
 * Le message décrypter.
