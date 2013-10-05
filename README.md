@@ -1,7 +1,7 @@
 > # CRP crypt
 Encrypt & decrypt for PHP & jQuery
 
-#### ![fr](img/fr.gif) [Documentation française](Doc/CRP_FR.md)
+#### ![fr](img/fr.gif) [ Documentation française](Doc/CRP_FR.md)
 
 #### Acknowledgments
 
