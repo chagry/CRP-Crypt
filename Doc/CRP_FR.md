@@ -1,10 +1,10 @@
 # CRP crypt Doc FR
 
-CRP est une fonction de cryptage decliner pour php et jQuery. Vous pouvez l'utiliser dans un chat, un echange d'information entre le serveur et le client, securisation de connexion… Vous pouvez crypter avec un langage est decrypter avec un autre langage.
+CRP est une fonction de cryptage decliné pour php et jQuery. Vous pouvez l'utiliser dans un chat, un échange d'information entre le serveur et le client, sécurisation de connexion… Vous pouvez crypter avec une langue et decrypter avec une autre.
 
-Crypte et décrypte les texte passer en paramètre avec la clé secret. Intègre en interne une clés secondaire, le même texte crypté à des moments différents avec la même clé secret donnera des résultats différents.
+Crypte et décrypte les textes passés en paramètre avec la clé secret. Intègre en interne une clé secondaire, le même texte crypté à des moments différents avec la même clé secret donnera des résultats différents.
 
-CRP securitis connexion conciste a ne pas envoier le password au serveur a chaque connexion mais plus tot, recuperer un message crypter de la pare du serveur est utiliser votre password pour decrypter le message avant de le renvoyer au serveur. Votre password a etais envoier une seule foit au serveur au moment de l'enregistrement, est plus jamais il sera renvoier au serveur.
+CRP securitis connexion conciste à ne pas envoyer le password au serveur a chaque connexion mais plus tôt, récupérer un message crypté de la pare du serveur est utilisé grâce à votre password pour decrypter le message avant de le renvoyer au serveur. Votre password a été envoyé une seule fois au serveur au moment de l'enregistrement, et plus jamais il sera renvoyer au serveur.
 
 ***
 ***
@@ -29,7 +29,7 @@ Fonction de cryptage.
 
 **Paramètre**
 * **TEXT** Le texte a crypter.
-* **KEY** La cles a utiliser pour crypter le texte.
+* **KEY** La clé à utiliser pour crypter le texte.
 
 **Return**
 * Une chaine de caracter base64.
@@ -46,14 +46,14 @@ $tmp = crp::crypte($message, $key);
 ***
 
 > #### `crp::decrypte('TEXT', 'KEY');`
-Fonction de decrypage.
+Fonction de décryptage.
 
 **Paramètre**
-* **TEXT** Le texte a decrypter.
-* **KEY** La cles a utiliser pour decrypter le texte.
+* **TEXT** Le texte à decrypter.
+* **KEY** La clé à utiliser pour décrypter le texte.
 
 **Return**
-* Le message decrypter.
+* Le message décrypter.
 
 **Exemple d'utilisation**
 
@@ -93,11 +93,11 @@ Importer les fichiers depuis votre dossier.
 Fonction de cryptage.
 
 **Paramètre**
-* **TEXT** Le texte a crypter.
-* **KEY** La cles a utiliser pour crypter le texte.
+* **TEXT** Le texte à crypter.
+* **KEY** La clé à utiliser pour crypter le texte.
 
 **Return**
-* Une chaine de caracter base64.
+* Une chaine de caractère base64.
 
 **Exemple d'utilisation**
 ```js
@@ -114,11 +114,11 @@ var tmp = $.crp.crypte(message, key);
 Fonction de decrypage.
 
 **Paramètre**
-* **TEXT** Le texte a decrypter.
-* **KEY** La cles a utiliser pour decrypter le texte.
+* **TEXT** Le texte à décrypter.
+* **KEY** La cles à utiliser pour décrypter le texte.
 
 **Return**
-* Le message decrypter.
+* Le message décrypter.
 
 **Exemple d'utilisation**
 ```js
