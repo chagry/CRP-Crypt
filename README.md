@@ -1,5 +1,4 @@
-> # CRP Crypt
-Encrypt & decrypt for PHP & jQuery
+![logo](img/CRPLogo.png)
 
 ### Documentation [![fr](img/en.gif)](Doc/CRP_EN.md) [ ![fr](img/fr.gif)](Doc/CRP_FR.md)
 
