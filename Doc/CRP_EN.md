@@ -2,11 +2,11 @@
 
 # CRP crypt Doc EN
 
-CRP est une fonction de cryptage decliné pour php et jQuery. Vous pouvez l'utiliser dans un chat, un échange d'information entre le serveur et le client, sécurisation de connexion… Vous pouvez crypter avec une langue et decrypter avec une autre.
+CRP is a cryptographic function available in php and jQuery. You can use it in a chat, an exchange of information between a server and a client, for a secure connection… You can encrypt with one language and decrypt with the other.
 
-Crypte et décrypte les textes passés en paramètre avec la clé secrète. Intègre en interne une clé aléatoire, le même texte crypté à des moments différents avec la même clé secrète donnera des résultats différents.
+Encrypt and decrypt texts given as a parameter with the private key. It manages a random key internally. The same text encrypted at different time with the same private key will provide different results.
 
-CRP-securitis-connexion consiste à ne pas envoyer le password au serveur a chaque connexion mais plustôt, récupérer un message crypté de la part du serveur, grâce à votre password, decrypter le message avant de le renvoyer au serveur.
+CRP-securitis-connexion do not send the password to the server at each connection, but will get an encrypted message from the server, thanks to the password, and decrypt the message before sending it back to the server.
 
 ***
 ***
@@ -30,11 +30,11 @@ require_once 'php/crp.php';
 Fonction de cryptage.
 
 **Paramètre**
-* **TEXT** Le texte à crypter.
-* **KEY** La clé à utiliser pour crypter le texte.
+* **TEXT** Text to be encrypted.
+* **KEY** Key used to encrypt the text.
 
 **Return**
-* Une chaine de caracter base64.
+* a base64 string.
 
 **Exemple d'utilisation**
 ```php
@@ -51,11 +51,11 @@ $tmp = crp::crypte($message, $key);
 Fonction de décryptage.
 
 **Paramètre**
-* **TEXT** Le texte à decrypter.
-* **KEY** La clé à utiliser pour décrypter le texte.
+* **TEXT** Text to be decrypted.
+* **KEY** Key used to decrypt the text.
 
 **Return**
-* Le message décrypté.
+* The text decrypted.
 
 **Exemple d'utilisation**
 
@@ -80,7 +80,7 @@ Plugin de cryptage et décryptage pour jQuery
 	* `jquery.base64.min.js`
 
 #### Import
-Importer les fichiers depuis votre dossier.
+Import all the files in your folder.
 ```js
 <script type="text/javascript" src="js/lib/jquery.crp.min.js"></script>
 <script type="text/javascript" src="js/lib/jquery.md5.min.js"></script>
@@ -95,11 +95,11 @@ Importer les fichiers depuis votre dossier.
 Fonction de cryptage.
 
 **Paramètre**
-* **TEXT** Le texte à crypter.
-* **KEY** La clé à utiliser pour crypter le texte.
+* **TEXT** Text to be encrypted.
+* **KEY** Key used to encrypt the text.
 
 **Return**
-* Une chaine de caractère base64.
+* A base64 string.
 
 **Exemple d'utilisation**
 ```js
@@ -116,11 +116,11 @@ var tmp = $.crp.crypte(message, key);
 Fonction de decrypage.
 
 **Paramètre**
-* **TEXT** Le texte à décrypter.
-* **KEY** La clé à utiliser pour décrypter le texte.
+* **TEXT** Text to be decrypted.
+* **KEY** Key used to decrypt the text.
 
 **Return**
-* Le message décrypté.
+* The decrypted message.
 
 **Exemple d'utilisation**
 ```js
