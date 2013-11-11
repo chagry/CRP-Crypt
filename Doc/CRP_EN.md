@@ -13,7 +13,8 @@ CRP-securitis-connexion do not send the password to the server at each connectio
 ***
 
 > # ![icone](../img/php.png)
-Class de cryptage et décryptage static pour php.
+Static class to encrypt and decrypt for php.
+
 
 ####Package
 * php
@@ -27,16 +28,16 @@ require_once 'php/crp.php';
 #### Usage
 ***
 > #### `crp::crypte('TEXT', 'KEY');`
-Fonction de cryptage.
+Function to encrypt.
 
-**Paramètre**
+**Parameters**
 * **TEXT** Text to be encrypted.
 * **KEY** Key used to encrypt the text.
 
 **Return**
 * a base64 string.
 
-**Exemple d'utilisation**
+**Example of use**
 ```php
 $message = 'Hello World';
 $key = '123456789';
@@ -48,16 +49,16 @@ $tmp = crp::crypte($message, $key);
 ***
 
 > #### `crp::decrypte('TEXT', 'KEY');`
-Fonction de décryptage.
+Function to decrypt.
 
-**Paramètre**
+**Parameters**
 * **TEXT** Text to be decrypted.
 * **KEY** Key used to decrypt the text.
 
 **Return**
 * The text decrypted.
 
-**Exemple d'utilisation**
+**Example of use**
 
 ```php
 $message = 'bDpiamM6cTtkYyA6O3MgY2p2ZHNramhzZGJxcyx2Yyw=';
@@ -71,7 +72,7 @@ $tmp = crp::decrypte($message, $key);
 ***
 
 > #![icone](../img/jquery.png) 
-Plugin de cryptage et décryptage pour jQuery
+jQuery plugin to encrypt and decrypt.
 
 ####Package
 * jQuery
@@ -92,16 +93,16 @@ Import all the files in your folder.
 ***
 
 > #### `$.crp.crypte('TEXT', 'KEY');`
-Fonction de cryptage.
+Function to encrypt.
 
-**Paramètre**
+**Parameters**
 * **TEXT** Text to be encrypted.
 * **KEY** Key used to encrypt the text.
 
 **Return**
 * A base64 string.
 
-**Exemple d'utilisation**
+**Example of use**
 ```js
 var message = 'Hello World';
 var key = '123456789';
@@ -113,16 +114,16 @@ var tmp = $.crp.crypte(message, key);
 ***
 
 > #### `$.crp.decrypte('TEXT', 'KEY');`
-Fonction de decrypage.
+Function to decrypt.
 
-**Paramètre**
+**Parameters**
 * **TEXT** Text to be decrypted.
 * **KEY** Key used to decrypt the text.
 
 **Return**
 * The decrypted message.
 
-**Exemple d'utilisation**
+**Example of use**
 ```js
 var message = 'bDpiamM6cTtkYyA6O3MgY2p2ZHNramhzZGJxcyx2Yyw=';
 var key = '123456789';
