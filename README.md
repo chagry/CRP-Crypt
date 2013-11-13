@@ -9,7 +9,8 @@
 * [info-3000](http://www.info-3000.com/) Encrypt & decrypt function for PHP.
 * [Placemarker](https://github.com/placemarker/jQuery-MD5) jQuery MD5 plugin.
 * [ngenko](https://github.com/ngenko) English translation.
-* 
+
+
 ## License
 
 Released under the [ MIT license](http://opensource.org/licenses/mit-license.php).
