@@ -130,3 +130,9 @@ var key = '123456789';
 var tmp = $.crp.decrypte(message,key);
 // tmp = Hello World
 ```
+
+## Contribution
+
+La class existe aussi pour Action script 3, si vous êtes intéressé, contactez moi pour que je la mette en ligne. Si vous voulez la reprendre dans un autre langage, vous pouvez me contacter pour plus d'info sur les fonctions. 
+
+Vous pouvez aussi nous aider à traduire la documentation dans d'autres langues.
