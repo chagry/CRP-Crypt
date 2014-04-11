@@ -1,7 +1,7 @@
 ![logo](img/CRPLogo.png)
 
 ***
-### Documentation [![fr](img/en.gif)](Doc/CRP_EN.md) [![fr](img/fr.gif)](Doc/CRP_FR.md)
+### Documentation [![fr](https://chagry.com/img/flag/en.gif)](Doc/CRP_EN.md) [![fr](https://chagry.com/img/flag/fr.gif)](Doc/CRP_FR.md)
 ***
 
 ## Acknowledgments
@@ -23,4 +23,4 @@ The class exists also in Action script 3. If you are interested, please contact 
 You can also help us translating the documentation in other languages.
 
 [![Chagry](https://pledgie.com/campaigns/24202.png?skin_name=chrome)](https://pledgie.com/campaigns/24202)
-[![Chagry](img/donate.png)](https://chagry.com/)
+[![Chagry](https://chagry.com/img/def/donate.png)](https://chagry.com/)
