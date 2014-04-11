@@ -2,9 +2,9 @@
 /*
  * @version		0.1
  * @date Crea	23/04/2013.
- * @date Modif	28/04/2013.
+ * @date Modif	11/04/2014.
  * @package		crp.php
- * @contact		chagry.fr - git@chagry.fr
+ * @contact		chagry.com - git@chagry.com
  * @Func Crypt	crp::crypte('Text', 'Key');
  * @Func Decry	crp::decrypte('Text', 'Key');
  */

@@ -138,6 +138,4 @@ La class existe aussi pour Action script 3, si vous êtes intéressé, contactez
 Vous pouvez aussi nous aider à traduire la documentation dans d'autres langues.
 
 [![Chagry](https://pledgie.com/campaigns/24202.png?skin_name=chrome)](https://pledgie.com/campaigns/24202)
-[![Chagry](../img/donate.png)](bitcoin:15n5RBiHiZjfySqqoBTgYyALh5JQhy6Mpx?label=Donation%20Chagry%20RPC%20Framework)
-
-bitcoin : 15n5RBiHiZjfySqqoBTgYyALh5JQhy6Mpx
+[![Chagry](img/donate.png)](https://chagry.com/)
