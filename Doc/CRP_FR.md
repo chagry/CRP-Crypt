@@ -136,6 +136,3 @@ var tmp = $.crp.decrypte(message,key);
 La class existe aussi pour Action script 3, si vous êtes intéressé, contactez moi pour que je la mette en ligne. Si vous voulez la reprendre dans un autre langage, vous pouvez me contacter pour plus d'info sur les fonctions. 
 
 Vous pouvez aussi nous aider à traduire la documentation dans d'autres langues.
-
-[![Chagry](https://pledgie.com/campaigns/24202.png?skin_name=chrome)](https://pledgie.com/campaigns/24202)
-[![Chagry](https://chagry.com/img/def/donate.png)](https://chagry.com/)
