@@ -1,7 +1,7 @@
 ![logo](img/CRPLogo.png)
 
 ***
-### Documentation [![fr](https://chagry.com/img/en.gif)](Doc/CRP_EN.md) [![fr](https://chagry.com/img/fr.gif)](Doc/CRP_FR.md)
+### Documentation [![fr](img/en.gif)](Doc/CRP_EN.md) [![fr](img/fr.gif)](Doc/CRP_FR.md)
 ***
 
 ## Acknowledgments
