@@ -4,7 +4,7 @@
 ### Documentation
 
 * [English](Doc/CRP_EN.md) [![en](img/en.gif)](Doc/CRP_EN.md)
-* [Frnech](Doc/CRP_FR.md) [![fr](img/fr.gif)](Doc/CRP_FR.md)
+* [French](Doc/CRP_FR.md) [![fr](img/fr.gif)](Doc/CRP_FR.md)
 
 ***
 
